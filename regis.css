@@ -1,0 +1,75 @@
+#register{
+    background: url(../images/blood-donate1.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+}
+.form .wrapper{
+    display:flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form .wrapper .wrap{
+    width:45%;
+}
+.form label {
+    margin: 0.5rem 0 0.2rem 0;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.form input, .form select{
+    padding: .7rem;
+    margin-bottom: 1rem;
+    width:100%;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: .1rem solid black;
+}
+
+.form button {
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 1rem;
+    padding: .8rem;
+    border: none;
+    width:12rem;
+    text-align: center;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.form button:hover {
+    background-color: var(--pure-black);
+}
+
+#find ul {
+    list-style: none;
+    padding: 0;
+}
+
+#find ul li {
+    margin: 1rem 0;
+}
+
+#find ul li a {
+    text-decoration: none;
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+#profile p {
+    margin: 0.5rem 0;
+}
